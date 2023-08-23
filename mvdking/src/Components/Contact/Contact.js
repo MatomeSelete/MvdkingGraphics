@@ -9,7 +9,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='contactpage'>
-                <h2 className='contactme'>Contact Me </h2>
+                <h2 className='contactme'>Contact Us </h2>
 
                 <div className="textForm">
 
