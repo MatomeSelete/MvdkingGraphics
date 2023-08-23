@@ -1,16 +1,11 @@
 import React from 'react'
 
-import './aboutUs.css'
-
-import 
-
-
-function aboutUs() {
+function AboutUs() {
   return (
     <div>
-
+      About
     </div>
   )
 }
 
-export default aboutUs
+export default AboutUs
