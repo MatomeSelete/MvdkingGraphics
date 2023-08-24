@@ -17,9 +17,9 @@ function Contact() {
                         <h3>Get in touch</h3>
                         <br />
 
-                        <h4 className='email'>Email: seletematome3@gmail.com</h4>
+                        <h4 className='email'>Email: mvdking0909@gmail.com</h4>
                         <br />
-                        <h4 className='phone'>Phone: (+27) 76-946-9953</h4>
+                        <h4 className='phone'>Phone: (+27) 78 322 8538</h4>
                         <br />
             
                     </div>
@@ -28,7 +28,7 @@ function Contact() {
 
                         <div className="form">
 
-                            <Form action="https://formsubmit.co/seletematome3@gmail.com" method="POST">
+                            <Form action="https://formsubmit.co/mvdking0909@gmail.com " method="POST">
                                 <div className='nameEmail'>
                                     <Form.Group className="mb-3" controlId="formBasicName">
                                         <input style={{ height: '50px', width: '100%', color: 'white' }} className='formname' type="text" name="name" required placeholder="Name" />

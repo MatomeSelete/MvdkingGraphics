@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Home from "./Components/Home/Home";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Contact from "./Components/Contact/Contact";
+import Welcome from "./Components/Welcome/Welcome"
 
 import './App.css';
 
@@ -12,6 +13,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<NavBar />}>

@@ -3,7 +3,7 @@ import React from "react";
 import "./Home.css";
 
 function Home() {
-  return (
+  return ( 
     <div className="container Home">
       <section className="homebg">
         <div className="carousel w-full">

@@ -1,12 +1,13 @@
 .Home {
     margin-top: 20%;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .homebg {
-    height: 30vh; 
+    display: none;
+    height: 20vh; 
     width: 98%;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .homebg img {
@@ -15,7 +16,8 @@
 
 .homeMain {
     margin-top: 10%;
-    background-color: aqua;
+    padding-top: 5% ;
+    background-color: whitesmoke;
 }
 
 .card {
