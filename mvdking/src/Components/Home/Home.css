@@ -1,5 +1,6 @@
 .Home {
-    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: whitesmoke;
 }
 
@@ -29,3 +30,67 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+
+/* ====================== Desktop view ============================== */
+
+@media (min-width:700px){
+	.Home {
+        /* margin-top: 20%; */
+        background-color: whitesmoke;
+    }
+    
+    .homebg {
+        height: 50vh;
+        margin-top: 5%;
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        /* display: flex; */
+        background-image: url('https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/a/d/add6620b-adidas--adv-hw-grxt-m-black-iq5325-v1_jpg_1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    
+    .homeMain {
+        height: 100%;
+        margin-top: 3%;
+        padding-top: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: whitesmoke;
+    }
+    
+    .card {
+        margin-top: 5%;
+        margin: 2%;
+        height: 50vh;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .card img {
+        height: 100%;
+        width: 99%;
+        border-radius: 10px;
+    }
+
+    .card h2,
+    .card h2,
+    .card button {
+        margin: -4%;
+    }
+}
+
+
+
+/* 
+https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/a/d/add6620b-adidas--adv-hw-grxt-m-black-iq5325-v1_jpg_1.jpg
+https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/p/m/pma4769gr-puma-ts-graphics-legacy-tee-green-62487743-v1_jpg_1.jpg */
