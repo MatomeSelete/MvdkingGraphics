@@ -8,7 +8,7 @@ import "./aboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="container aboutUs">
+    <div className="aboutUs">
       <section className="heading">
         <h1>Whats Makes Us Diffirent.</h1>
         <p>

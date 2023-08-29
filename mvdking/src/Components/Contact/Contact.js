@@ -6,14 +6,16 @@ import { Form, Button, FormGroup, FormControl, ControlLabel,FloatingLabel } from
 
 import './Contact.css'
 
-function Contact() {
+function Contact() { 
   return (
     <div className='contactpage'>
-                <h2 className='contactme'>Contact Us </h2>
+                
 
                 <div className="textForm">
 
                     <div className="text">
+                    <h2 className='contactme'>Contact Us </h2>
+                    <br />
                         <h3>Get in touch</h3>
                         <br />
 

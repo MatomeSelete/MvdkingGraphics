@@ -1,8 +1,11 @@
 .aboutUs {
+    width: 100%;
+    height: 100%;
     margin-top: 17%;
     background-color: whitesmoke;
     height: 100vh;
     width: 100%;
+    padding: 5%;
 }
 .imgLog {
     height: 50px;
@@ -13,10 +16,41 @@
  
 } 
 
+.heading h1 {
+    font-size: 60px;
+}
+
+.heading p {
+    
+    font-size: 20px;
+}
 /* ======================= Desktop View============================== */
 
 @media (min-width:700px){
+    .aboutUs {
+        margin-top: 5%;
+        background-color: whitesmoke;
+        height: 100%;
+        width: 100%;
+    }
+
     .aboutBody {
+        margin-top: 3%;
+        width: 100%;
         display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutBody .card {
+        
+        height: 40%;
+        width: 40%;
+    }
+
+    .aboutBody img {
+        height: 40%;
+        width: 40%;
     }
 }
