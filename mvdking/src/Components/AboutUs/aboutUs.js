@@ -4,7 +4,7 @@ import Logo from '../ images/icons8-logo-design-64.png';
 import CustomLogo from '../ images/icons8-paint-48.png';
 
 
-import "./AboutUs.css";
+import "./aboutUs.css";
 
 function AboutUs() {
   return (
@@ -17,7 +17,7 @@ function AboutUs() {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-      </section>
+      </section> 
 
       <section className="aboutBody">
 

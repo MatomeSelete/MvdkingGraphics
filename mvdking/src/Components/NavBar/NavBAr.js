@@ -38,19 +38,14 @@ function NavBar() {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
-              {/* <li>
-                <Link to="/welcome">Welcome</Link>
-              </li> */}
+              
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">Mvdking</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-          {/* <li>
-                <Link to="/welcome">Welcome</Link>
-              </li> */}
-            <li>
+            <li> 
               <Link to="/">Home</Link>
             </li>
             <li>

@@ -10,5 +10,13 @@
 }
 
 .heading {
+ 
+} 
 
+/* ======================= Desktop View============================== */
+
+@media (min-width:700px){
+    .aboutBody {
+        display: flex;
+    }
 }

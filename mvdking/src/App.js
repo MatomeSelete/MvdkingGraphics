@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import NavBar from "./Components/NavBar/NavBar";
+import NavBar from "./Components/NavBar/NavBAr";
 import Home from "./Components/Home/Home";
-import AboutUs from "./Components/AboutUs/AboutUs";
+import AboutUs from "./Components/AboutUs/aboutUs";
 import Contact from "./Components/Contact/Contact";
 import Welcome from "./Components/Welcome/Welcome"
 
