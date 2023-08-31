@@ -18,18 +18,14 @@ function Contact() {
                     <br />
                         <h3>Get in touch</h3>
                         <br />
-
                         <h4 className='email'>Email: mvdking0909@gmail.com</h4>
                         <br />
                         <h4 className='phone'>Phone: (+27) 78 322 8538</h4>
                         <br />
-            
                     </div>
 
                      <div className="forms">
-
                         <div className="form">
-
                             <Form action="https://formsubmit.co/mvdking0909@gmail.com " method="POST">
                                 <div className='nameEmail'>
                                     <Form.Group className="mb-3" controlId="formBasicName">
@@ -55,10 +51,7 @@ function Contact() {
                                     </Button>
                                 </>
                             </Form>
-
                         </div> 
-
-
                     </div>
                 </div>
             </div>
