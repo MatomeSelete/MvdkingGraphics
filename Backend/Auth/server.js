@@ -6,9 +6,6 @@ const app = express();
 
 app.use(cors());
 
-// parse requests of content-type - application/json
-app.use(express.json());
-
 // const db = require("./app/models");
 // const Role = db.role;
 
@@ -16,6 +13,9 @@ app.use(express.json());
 //   console.log('Drop and Resync Db');
 //   initial();
 // });
+
+// parse requests of content-type - application/json
+app.use(express.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
@@ -48,3 +48,19 @@ app.listen(PORT, () => {
 
 
 
+function initial() {
+  Role.create({
+    id: 1,
+    name: "user"
+  });
+ 
+  Role.create({
+    id: 2,
+    name: "moderator"
+  });
+ 
+  Role.create({
+    id: 3,
+    name: "admin"
+  });
+}
