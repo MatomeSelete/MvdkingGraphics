@@ -66,11 +66,10 @@
     }
     
     .card {
-        border: 1px solid red;
         margin-top: 2%;
         margin: 2%;
         height: 50vh;
-        width: 30%;
+        width: 28%;
         margin-left: auto;
         margin-right: auto;
         background-color: aliceblue;
