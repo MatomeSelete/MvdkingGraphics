@@ -3,16 +3,15 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import Carausel from "./carausel";
+
 import "./Home.css"; 
 
 function Home() {
   return ( 
     <div className=" Home">
       <section className="homebg"> 
-            {/* <img
-              src="https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/a/d/add6620b-adidas--adv-hw-grxt-m-black-iq5325-v1_jpg_1.jpg"
-              className=""
-            /> */}
+            <Carausel />
 
       </section>
 

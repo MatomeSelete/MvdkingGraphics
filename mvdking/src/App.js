@@ -5,7 +5,7 @@ import NavBar from "./Components/NavBar/NavBAr";
 import Home from "./Components/Home/Home";
 import AboutUs from "./Components/AboutUs/aboutUs";
 import Contact from "./Components/Contact/Contact";
-import Welcome from "./Components/Welcome/Welcome"
+import Welcome from "./Components/Welcome/Welcome";
 
 import './App.css';
 
@@ -23,6 +23,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+
     </div>
   );
 }

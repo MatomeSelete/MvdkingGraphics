@@ -1,11 +1,13 @@
 .Home {
+    background-color: aqua;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
 }
 
 .homebg {
-    display: none; 
+    border: 2px solid pink;
+    display: inline; 
     height: 10vh; 
     width: 98%;
     background-color: whitesmoke;
@@ -41,6 +43,7 @@
     
     .homebg {
         height: 50vh;
+        width: 100%;
         margin-top: 5%;
         padding-top: 5%;
         margin-left: auto;
@@ -94,3 +97,6 @@
 /* 
 https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/a/d/add6620b-adidas--adv-hw-grxt-m-black-iq5325-v1_jpg_1.jpg
 https://www.side-step.co.za/media/catalog/product/cache/60023b40f56fdff39b9c495b8e044aef/p/m/pma4769gr-puma-ts-graphics-legacy-tee-green-62487743-v1_jpg_1.jpg */
+
+
+
