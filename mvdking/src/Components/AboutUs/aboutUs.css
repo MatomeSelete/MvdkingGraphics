@@ -1,56 +1,64 @@
 .aboutUs {
-    width: 100%;
-    height: 100%;
-    margin-top: 17%;
-    background-color: whitesmoke;
-    height: 100vh;
-    width: 100%;
-    padding: 5%;
+  width: 100%;
+  height: 100%;
+  margin-top: 17%;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  padding: 5%;
 }
 .imgLog {
-    height: 50px;
-    width: 60px;
+  height: 50px;
+  width: 60px;
 }
 
 .heading {
- 
-} 
+}
 
 .heading h1 {
-    font-size: 60px;
+  font-size: 60px;
+  border: 1px solid red;
 }
 
 .heading p {
-    
-    font-size: 20px;
+  font-size: 20px;
 }
 /* ======================= Desktop View============================== */
 
-@media (min-width:700px){
-    .aboutUs {
-        margin-top: 5%;
-        background-color: whitesmoke;
-        height: 100%;
-        width: 100%;
-    }
+@media (min-width: 700px) {
+  .heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .aboutBody {
-        margin-top: 3%;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .heading p {
+    width: 70%;
+    margin-left: 5%;
+  }
 
-    .aboutBody .card {
-        
-        height: 40%;
-        width: 40%;
-    }
+  .aboutUs {
+    margin-top: 1%;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+  }
 
-    .aboutBody img {
-        height: 40%;
-        width: 40%;
-    }
+  .aboutBody {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutBody .card {
+    height: 40%;
+    width: 40%;
+  }
+
+  .aboutBody img {
+    height: 40%;
+    width: 40%;
+  }
 }

@@ -4,7 +4,6 @@ import { Outlet, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './NavBar.css'
 
@@ -31,18 +30,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-
-
-
-<ul className="menu menu-horizontal px-1">
-<li> 
-  <Link to="/">Home</Link>
-</li>
-<li>
-  <Link to="/about">About Us</Link>
-</li>
-<li>
-  <Link to="/contact">Contact</Link>
-</li>
-</ul>
