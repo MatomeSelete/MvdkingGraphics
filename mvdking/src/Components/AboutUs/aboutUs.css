@@ -17,7 +17,6 @@
 
 .heading h1 {
   font-size: 60px;
-  border: 1px solid red;
 }
 
 .heading p {
@@ -60,5 +59,8 @@
   .aboutBody img {
     height: 40%;
     width: 40%;
+    padding: 5%;
+    justify-content: center;
+    border: 1px solid red;
   }
 }
